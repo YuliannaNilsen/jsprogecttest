@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Name/Value Manager</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="wrapper">
+      <div class="upper-container">
+
+      <h2>Name/Value Pair Manager</h2>
+
+      <div class="wrapper-input"><input type="text" id="pairInput" placeholder="Enter name=value"/>
+        <button onclick="addPair()">Add</button>
+      </div>
+
+      <h2>Name/Value Pair Manager List</h2>
+
+      <div class="select-container">
+
+        <select id="pairList" multiple></select>
+
+        <div class="buttons">
+          <button onclick="sortByName()">Sort by Name</button>
+          <button onclick="sortByValue()">Sort by Value</button>
+          <button onclick="deleteSelected()">Delete</button>
+        </div>
+      </div>
+
+    </div>
+  </di>
+  <script src="main.js"></script>
+</div>
+</body>
+</html>
